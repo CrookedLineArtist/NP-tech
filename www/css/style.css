@@ -22,8 +22,8 @@ html,body{
 
 nav{
     position: fixed;
-    top:0.5em;
-    right: 1em;
+    top:8px;
+    right: 16px;
     text-transform: uppercase;
     width: 100%;
     
@@ -34,14 +34,14 @@ nav{
 
 }
 nav a{
-    font-size: 0.9em;
+    font-size: 14px;
     height: max-content;
-    padding: 0em 1.5em;
+    padding: 0 24px;
     color: var(--primary-color);
     background-color: transparent;
     border: 1px solid var(--primary-color);
     
-    border-radius: 1em;
+    border-radius: 16px;
     text-decoration: none;
 
 }
@@ -55,22 +55,22 @@ nav a:hover{
 
 
 h1, h2{
-    font-size: 1.1em;
+    font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 2px;
 
     color: var(--light-color);
     background-color: var(--primary-color);
     width: max-content;
-    margin-top: -0.5em;
-    margin-bottom: 1.5em;
-    padding: 0em 1.5em;
-    border-radius: 1em;
+    margin-top: -8px;
+    margin-bottom: 24px;
+    padding: 0 24px;
+    border-radius: 16px;
 }
 
 h3{
-    font-size: 0.9em;
+    font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
 
@@ -78,19 +78,19 @@ h3{
     background-color: var(--dark-color);
     width: max-content;
     border: 1px solid var(--primary-color);
-    padding: 0em 1.5em;
+    padding: 0 24px;
 
-    border-radius: 1em;
+    border-radius: 16px;
     z-index: 3;
 }
 h4{
-    font-size: 0.9em;
+    font-size: 14px;
     
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 0em;
-    line-height: 1em;
-    margin: 0.4em;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin: 10px;
 
     color: var(--primary-color);
 
@@ -100,17 +100,17 @@ h4{
 
 img{
     object-fit: cover;
-    border-radius: 0.2em;
+    border-radius: 4px;
     z-index: -1;
     width: 100%;
 }
 
 p{
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 14px;
+    line-height: 24px;
     font-weight: 200;
     max-width: 60ch;
-    padding: 1em;
+    padding: 16px;
 
 
 }
@@ -126,21 +126,21 @@ li{
 
 footer{
 
-    padding: 3em 0;
+    padding: 45px 0;
     text-transform: uppercase;
-    font-size: 0.7em;
-    letter-spacing: 0.1em;
+    font-size: 10px;
+    letter-spacing: 0.16px;
 
 
 
 }
 footer h2{
-    font-size: 1.2em; 
+    font-size: 18px; 
 }
 
 footer p{
-    line-height: 1.5em;
-    padding: 0.7em;
+    line-height: 24px;
+    padding: 10px;
 }
 footer a{
     text-decoration: none;
